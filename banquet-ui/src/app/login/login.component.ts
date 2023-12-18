@@ -14,6 +14,7 @@ export class LoginComponent {
   constructor(private route: ActivatedRoute, private router: Router){}
 
   submit(){
+    console.log("submit invoked");
     this.router.navigate(["/dashboard"]);
   }
 }
