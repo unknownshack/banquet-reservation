@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from "@angular/forms";
 import { IgxStepperModule, IgxMaskModule, IgxInputGroupModule, IgxButtonModule, IgxRadioModule, IgxCardModule, IgxCheckboxModule, IgxSelectModule, IgxIconModule, IgxBadgeModule } from "igniteui-angular";
 import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { LoginComponent } from './login/login.component';
     FooterComponent,
     ContactComponent,
     BookNowComponent,
-    LoginComponent
+    LoginComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
